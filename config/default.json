@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "salavat learn mern",
+    "mongoUri": "mongodb+srv://admin:1234@cluster0.yq3pz.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
