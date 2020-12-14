@@ -38,7 +38,6 @@ router.post(
             await user.save();
 
             res.status(201).json({ message: 'Пользователь создан' });
-
         } catch (e) {
             res.status(500).json({ message: 'Что-то пошло не так, попробуйте снова' })
         }
