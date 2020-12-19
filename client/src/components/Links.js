@@ -14,7 +14,7 @@ export default function Links() {
             const fetched = await request('/api/link', 'GET', null, {
                 Authorization: `Beare ${token}`
             });
-            console.log(fetched);
+
             setLinks(fetched);
         } catch (e) { }
     }, [token, request]);
